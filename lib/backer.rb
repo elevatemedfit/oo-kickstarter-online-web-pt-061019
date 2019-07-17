@@ -11,6 +11,7 @@ class Backer
   def back_project(title)
     nuinfo = backed_projects << title
     nuinfo << name
+    nuinfo
   end
 
 end
