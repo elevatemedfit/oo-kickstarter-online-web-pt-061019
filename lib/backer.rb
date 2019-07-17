@@ -9,7 +9,8 @@ class Backer
   end
 
   def back_project(title)
-    backed_projects << title 
+    nuinfo = backed_projects << title
+    nuinfo << name
   end
 
 end
